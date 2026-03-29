@@ -214,6 +214,10 @@ a { text-decoration: none; color: inherit; }
   z-index: 200;
 }
 
+.modal-overlay[hidden] {
+  display: none;
+}
+
 .modal {
   background: #fff;
   border-radius: 16px;
